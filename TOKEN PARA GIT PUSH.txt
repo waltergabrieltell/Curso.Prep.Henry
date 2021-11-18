@@ -1,0 +1,19 @@
+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
+
+git push https://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@github.com/waltergabrieltell/curso.prep.henry.git
+
+git clone https://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@github.com/waltergabrieltell/curso.prep.henry.git
+
+
+Sincronizar cambios GIT HUB
+
+01 - Ctrl + Ñ
+     git status
+
+02- git add + en nombre del archivo que te aparecio en el anterior comando
+
+03 - git status (para verificar que este en verde)
+
+04 - git commit - m "texto que quieras"  (para confirmar los cambios)
+
+05 - git push (aplica cambios locales al repositorio en la nube)
