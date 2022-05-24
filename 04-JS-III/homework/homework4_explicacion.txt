@@ -1,0 +1,61 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Arrays:
+
+    es una lista de elementos, se define con corchetes [] y dentro se ponen los elementos separados por coma y puden ser cualquier tipo de datos, numero, strings, incluso otros arreglos.
+    para acceder al contenido del arreglo se escribe el nombre de la variable donde esta el arreglo y se especifica su indice para acceder al elemento en esa posicion.
+    con la propiedad .lenght se puede determinar la longitud del arreglo o cantidad de elementos 
+    los arreglos se empiezan a contar desde 0 (cero).
+
+    ****************************************
+RESOLUCION DE LA PROPUESTA EN VIDEO DE TONI, RUTA PARA ENCONTRAR AL AMIGO "JIMMY"
+
+
+    > var alumnos=[
+... {
+...    nombre:'Emi',
+...    edad:23,
+...    hobbies:['correr','dormir','nadar'],
+...    amigos:[
+...        {nombre:'Martin',},
+...        {nombre:'Leo',}],
+... },
+... {
+...    nombre:'Franco',
+...    edad:21,
+...    hobbies:['futbol','golf'],
+...    amigos:[
+...      {
+.....        nombre:'Emi',
+.....      },
+...      {
+.....        nombre:'Jimmy',
+.....      },
+...      {
+.....        nombre:'Matias',
+.....      }
+...    ],
+... },
+... ]
+undefined
+> alumnos
+[
+  {
+    nombre: 'Emi',
+    edad: 23,
+    hobbies: [ 'correr', 'dormir', 'nadar' ],
+    amigos: [ [Object], [Object] ]
+  },
+  {
+    nombre: 'Franco',
+    edad: 21,
+    hobbies: [ 'futbol', 'golf' ],
+    amigos: [ [Object], [Object], [Object] ]
+  }
+]
+
+> alumnos[0]['hobbies'][1]
+'dormir'
+> alumnos[1]['amigos'][1]
+{ nombre: 'Jimmy' }
+>
